@@ -123,12 +123,17 @@ translated_txt = translate(input_path, output_path, src_lang, tar_lang)
 translated_tx.save(output_path)
 ```
 
-File Structure
+```File Structure
 translate.py: The main script for translating DOCX documents.
 lang_code.yml: A YAML file containing language codes.
 Dockerfile: The Dockerfile for building the Docker image.
 docker-compose.yml: The Docker Compose file for setting up the Docker environment.
 requirements.txt: A file listing the Python dependencies for the project.
+```
+Example output
+-------------------
+please refer to the [documentation file](./output_docx/reference_translated_brochure.docx) as input docx. 
+Here is the corresponding [output docx](./output_docx/brochure_fr.docx)
 
 ## Possible improvement and speedup
 
